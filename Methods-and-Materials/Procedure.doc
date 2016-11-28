@@ -1,0 +1,40 @@
+Procedure:
+Creating SCP Actuators
+Twist Insertion:
+1.	Hang a weight (50 grams) from one end of the fiber and attach the other end to the shaft of a motor. 
+2.	Ensure that the weight is also tethered against rotation to ensure that every turn of the motor corresponds to the addition of a twist into the wire. 
+3.	Keep fiber taught to allow the fiber to twist to near/beyond point of coiling.
+4.	Servo/Stepper motor can be used for twisting and counting inserted terms. 
+Heat Treatment:
+1.	After thread is properly coiled, apply voltage potential to the wire (~0.2W/cm), which heats coils to above 150 degrees Celsius.
+a.	Repeat 20 times until resting length converges
+2.	To prevent SCP actuators from twisting, 2-plys are formed, using two of the coiled threads and twisting them together.
+3.	Resultant rest length (at 20 degrees) should be around 100 mm.
+“Solving” /Characterizing the SCP Actuator 
+Experimental Apparatus:
+1.	One end of SCP actuator is mounted to test bed, other end is attached to load cell
+2.	Mount load cell on vertical motion stage which is controlled by DC servomotor (vertical resolution = 0.01)
+3.	Electrical leads (located at load cell and test bed base) provide voltage across SCP actuator
+Quantifying Thermal Model Aspects 
+Thermo-mechanical model
+1.	Water bath (control temperature of the SCP actuator)
+2.	Vary tension of SCP actuator between 100 mN and 1000mN
+a.	Results should indicate that increasing the temperature increases the force
+b.	What is the force-strain profile? How is it developed?
+3.	Solve for temperature effect (c) ??
+4.	Damping coefficient is found by attaching a 50 gram weight to the end of SCP actuator and fitting the equation  (F = k(x-x0) + bv) to a damped response.  
+Following these procedures results in the final model: F = k(x-x0) + bv + c(T-T0).
+Thermo-electric model
+Cth (dT(t)/dt) = P(t) - λ (T(t) – Tamb)
+1.	λ can be found at steady-state force (dT(t)/dt = 0).
+
+
+*Notes:
+-14-20 MPa used to create coils in 127 micrometer diameter nylon, 6,6 monofilament sewing thread)
+-Nylon fibers absorb water so water is not optimal for driving thermal actuation
+Sources:
+M. C. Yip and G. Niemeyer, "High-performance robotic muscles from conductive nylon sewing thread," 2015 IEEE International Conference on Robotics and Automation (ICRA), Seattle, WA, 2015, pp. 2313-2318.
+doi: 10.1109/ICRA.2015.7139506
+
+Carter S. Haines et al, “Artificial Muscles From Fishing Line and Sewing Thread” in  Science 343, 868 (2014); DOI: 10.1126/science.1246906 
+
