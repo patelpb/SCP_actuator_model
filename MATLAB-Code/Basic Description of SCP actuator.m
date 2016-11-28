@@ -1,4 +1,3 @@
-
 % c =  thermal constant
 % Tamb = ambient temperature
 % b = damping coefficient
