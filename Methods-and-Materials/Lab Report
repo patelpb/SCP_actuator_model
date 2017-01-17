@@ -1,0 +1,21 @@
+Introduction:
+The objective of this research is to study the construction of super-coiled polymer (SCP) actuators and develop an integration technique with printable robotics.
+
+Materials:
+In order to create the actuators, the following list of materials is required:
+-Stand clamp (https://www.amazon.com/Laboratory-Grade-Metalware-Set-Support/dp/B00HUUWYIO/ref=sr_1_2?ie=UTF8&qid=1484636385&sr=8-2&keywords=stand+clamp)
+-Drill/Motor 
+-Weight set (https://www.amazon.com/Ajax-Scientific-Economy-Weight-Plastic/dp/B00EPQMEWC/ref=sr_1_4?ie=UTF8&qid=1484616184&sr=8-4&keywords=50+gram+weight+with+hook)
+-Conductive sewing thread
+-Paper Clips (https://www.amazon.com/ACCO-Paper-Clips-Economy-Non-skid/dp/B001B0D5T6/ref=sr_1_2?s=office-products&ie=UTF8&qid=1484636553&sr=1-2&keywords=paper+clips)
+-Rod/Pencil to tether base against rotation
+-Heat gun or hair dryer
+
+Procedure:
+1.	Attach motor to stand clamp. 
+2.	Attach a paper clip to both ends of the conductive sewing thread. 
+3.	Hook one paper clip onto the motor shaft and the other side to a weight.
+4.	Tether the weight against rotation to allow the fiber to twist near/beyond the point of coiling. 
+5.	Turn on the motor and allow for the coils to form within the thread. 
+6.	In order to “anneal” the actuators, the threads must be heated to 150 degrees Celsius and then cooled to room temperature. This process must be repeated 10-20 times in order to ensure that the actuator reaches the resting length.
+7.	After the annealing process, a DC servo motor or a heat gun (hair dryer) may be used to actually test actuation. When heat is applied, the actuator will contract. 
